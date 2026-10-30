@@ -1,0 +1,21 @@
+# Local Netlify folder
+.netlify
+
+# Gerado por node .work/build-dist.cjs
+dist/
+
+# Material de trabalho (capturas, backups, anotações do cliente).
+# Só entram no repositório os scripts que rodam em qualquer computador.
+.work/*
+!.work/build-artigos.cjs
+!.work/build-dist.cjs
+!.work/v2-server.cjs
+!.work/v2-content-check.cjs
+
+# Notas internas sobre a origem e a restauração das fotos
+assets/sources.md
+assets/portrait-restoration.md
+
+# Matéria-prima antiga, nenhum arquivo do site usa
+ezgif-*.zip
+hf_*.mp4

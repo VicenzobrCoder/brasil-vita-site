@@ -1,0 +1,8 @@
+nome: [NOME COMPLETO DA DRA. CÉLIA]
+nome_curto: Dra. Célia
+especialidade: Oftalmologista
+crm: CRM [NÚMERO]
+rqe: RQE [NÚMERO]
+
+(Assinatura que aparece em todos os artigos. Troque só o que vem depois
+dos dois-pontos, por exemplo "crm: CRM-SP 123456". Depois rode o build.)

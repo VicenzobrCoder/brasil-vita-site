@@ -1,0 +1,4 @@
+Imagens de capa dos artigos.
+Coloque aqui o arquivo e escreva o nome dele no campo "capa:" do artigo.
+Ideal: JPG, 1200 x 675 px (formato 16:9), até 250 KB.
+Este arquivo de texto não vai para o site.
