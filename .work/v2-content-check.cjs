@@ -33,7 +33,12 @@ const must = {
   convenios: ['Amil', 'Amafresp', 'Bradesco', 'Cabesp', 'Cassi', 'Economus', 'Fundação Saúde Itaú', 'Porto Seguro', 'Gama', 'Hapvida', 'Mediservice', 'Omint', 'Proasa', 'Sulamérica', 'Total Medcare'],
   estrutura: ['Quatro consultórios', 'Sala de exames', 'Sala de espera climatizada', 'Auto refrator', 'Topógrafo de córnea', 'Lensômetro digital'],
   prova: ['UNIFESP', 'Hospital São Paulo', 'Emílio Ribas', 'CBO', 'Irvine'],
-  rodape: ['Responsável técnico'],
+  // DESATIVADO em 11/11/2026 a pedido da clínica: a linha "Responsável técnico:
+  // Dr(a). [nome] — CRM-SP [número]" foi removida do rodapé do index.html porque
+  // estava no ar com os marcadores por preencher. O CFM (Res. 1.974/2011) pede o
+  // responsável técnico e o CRM no site da clínica: quando tiverem o nome e o
+  // número, repor a linha no rodapé e descomentar a regra abaixo.
+  // rodape: ['Responsável técnico'],
   cirurgias: ['Entenda a cirurgia', 'LASIK', 'PRK', 'Crosslinking', 'Ver o crosslinking'],
 };
 const mustNot = {
